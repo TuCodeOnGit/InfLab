@@ -1,6 +1,13 @@
+/* INDEX */
+/* ////////////////////// */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #f5f5f5;
@@ -10,11 +17,17 @@ h1 {
     font-family: 'Architects Daughter', cursive;
 }
 
+h3 {
+    font-weight: lighter;
+}
+
 .wrapper {
-    width: 300px;
+    display: block;
+    max-width: 350px;
     height: 480px;
     padding: 40px;
     margin: 100px auto;
+    color: #000;
     background-color: antiquewhite;
     border-radius: 5px;
     box-shadow: 5px 5px #055;
@@ -25,3 +38,6 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
 }
+
+/* 1 */
+/* ////////////////////// */
